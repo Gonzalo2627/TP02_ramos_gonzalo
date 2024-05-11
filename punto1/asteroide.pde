@@ -14,4 +14,4 @@ class asteroide extends GameObject {
   
   public void mover(int direccion, float deltaTime){
   }
-  
+}

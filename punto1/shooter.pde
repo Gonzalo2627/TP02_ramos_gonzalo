@@ -1,10 +1,12 @@
 class Shooter extends GameObject {
   int velocidad;
+  int vidas
   
   Shooter(int x, int y, PImage img, int velocidad) {
     this.posicion = new PVector(x, y);
     this.imagen = img;
     this.velocidad = velocidad;
+    this.vidas = vidas;
   }
   
   void display() {
